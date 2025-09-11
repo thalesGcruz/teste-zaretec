@@ -1,15 +1,25 @@
 
 services:
-  app:
-    build: .
-    volumes:
-      - ./src:/app/src
-      - ./pom.xml:/app/pom.xml
-    ports:
-      - "8080:8080"
-    depends_on:
-      - db
+  # app:
+  #   build: .
+  #   volumes:
+  #     - ./src:/app/src
+  #     - ./pom.xml:/app/pom.xml
+  #   ports:
+  #     - "8080:8080"
+  #   depends_on:
+  #     - db
     
+  rabbitmq:
+    container_name: 'guide-rabbit'
+    image: rabbitmq:3.12-management 
+    environment:
+      RABBITMQ_DEFAULT_PASS: root
+      RABBITMQ_DEFAULT_USER: root
+    ports:
+      - "5672:5672"    
+      - "15672:15672" 
+
   db:
     image: mysql:8.0
     environment:

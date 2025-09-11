@@ -1,2 +1,13 @@
 /home/thales/projetos/teste-zaretec/src/main/java/tech/test/testezaretec/TestezaretecApplication.java
+/home/thales/projetos/teste-zaretec/src/main/java/tech/test/testezaretec/configs/RabbitMQConfig.java
+/home/thales/projetos/teste-zaretec/src/main/java/tech/test/testezaretec/configs/RabbitMQListenerConfig.java
 /home/thales/projetos/teste-zaretec/src/main/java/tech/test/testezaretec/controller/MessageController.java
+/home/thales/projetos/teste-zaretec/src/main/java/tech/test/testezaretec/dto/CreateMessageDto.java
+/home/thales/projetos/teste-zaretec/src/main/java/tech/test/testezaretec/dto/MessageSerializeDto.java
+/home/thales/projetos/teste-zaretec/src/main/java/tech/test/testezaretec/entity/MessageEntity.java
+/home/thales/projetos/teste-zaretec/src/main/java/tech/test/testezaretec/enums/MessageStatus.java
+/home/thales/projetos/teste-zaretec/src/main/java/tech/test/testezaretec/exeptions/GlobalExceptionHandler.java
+/home/thales/projetos/teste-zaretec/src/main/java/tech/test/testezaretec/receive/Receive.java
+/home/thales/projetos/teste-zaretec/src/main/java/tech/test/testezaretec/repository/MessageRepository.java
+/home/thales/projetos/teste-zaretec/src/main/java/tech/test/testezaretec/service/MessageService.java
+/home/thales/projetos/teste-zaretec/src/main/java/tech/test/testezaretec/service/SendService.java
